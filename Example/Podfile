@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'RVCameraView_Example' do
+  pod 'RVCameraView', :path => '../'
+
+  target 'RVCameraView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
