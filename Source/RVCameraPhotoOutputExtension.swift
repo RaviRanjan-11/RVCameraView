@@ -16,12 +16,8 @@ extension RVCameraView: AVCapturePhotoCaptureDelegate {
             print("Capturing Photo")
             capturePhotoOutput.capturePhoto(with: settings, delegate: self)
         case .video:
-            if isRecordingStarted {
-                self.stopRecording()
-            } else {
-                self.startRecording()
-
-            }
+            if isRecordingStarted { self.stopRecording() }
+            else { self.startRecording() }
 
         case .none:
             let settings = AVCapturePhotoSettings()
