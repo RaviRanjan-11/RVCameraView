@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'RVCameraView/Classes/**/*'
-  
+  s.source_files = 'Source/**/*'
+
   # s.resource_bundles = {
   #   'RVCameraView' => ['RVCameraView/Assets/*.png']
   # }

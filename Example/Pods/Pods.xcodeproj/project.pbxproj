@@ -136,11 +136,7 @@
 		4A217C740E81AC76153DCDE0073ECB69 /* RVCameraView */ = {
 			isa = PBXGroup;
 			children = (
-				FA9E772129FD262D0089E213 /* RVCameraPhotoOutputExtension.swift */,
-				FA9E772329FD2BBD0089E213 /* RVCameraVideoOutputExtension.swift */,
-				FA9E771F29FD1E670089E213 /* RVCameraView.swift */,
-				FA9E772529FD2CF60089E213 /* RVCameraType.swift */,
-				FA9E772729FD2F380089E213 /* RVCameraOutputType.swift */,
+				FA9E772D29FD4C940089E213 /* Source */,
 				F2786452294C249B66AB0682F41E541E /* Pod */,
 				F755A29F92164CED2F7C8054B8C17F1A /* Support Files */,
 			);
@@ -233,6 +229,18 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/RVCameraView";
+			sourceTree = "<group>";
+		};
+		FA9E772D29FD4C940089E213 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E772129FD262D0089E213 /* RVCameraPhotoOutputExtension.swift */,
+				FA9E772329FD2BBD0089E213 /* RVCameraVideoOutputExtension.swift */,
+				FA9E771F29FD1E670089E213 /* RVCameraView.swift */,
+				FA9E772529FD2CF60089E213 /* RVCameraType.swift */,
+				FA9E772729FD2F380089E213 /* RVCameraOutputType.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
