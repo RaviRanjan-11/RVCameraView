@@ -32,12 +32,7 @@ class ViewController: UIViewController, RVCameraImageOutputProtocol {
 
     }
     @IBAction func onClickCameraButton(_ sender: UIButton) {
-        switch currentCameraType {
-        case .photo:
-            self.rvCameraView.captureImage()
-        case .video:
-            self.rvCameraView.captureImage()
-        }
+        self.rvCameraView.capture()
     }
     @IBAction func onTapCameraType(_ sender: UIButton) {
         switch camera {
@@ -74,9 +69,9 @@ class ViewController: UIViewController, RVCameraImageOutputProtocol {
     func getCameraOutput(with photo: UIImage?, videoURL: URL?) {
         switch currentCameraType {
         case .photo:
-            print(photo)
+            print(photo as Any)
         case .video:
-            print(videoURL)
+            print(videoURL as Any)
 
         }
     }

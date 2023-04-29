@@ -8,22 +8,12 @@ import Foundation
 import UIKit
 import AVFoundation
 
-
-protocol RVCameraProtocol {
-    func initiliseRVCameraView()
-    func captureImage()
-    var cameraImageOutputDelegate: RVCameraImageOutputProtocol? { get set}
-    
-}
-
-public protocol RVCameraImageOutputProtocol {
-    func getCameraOutput(with photo: UIImage?, videoURL: URL?)
-}
 final public class RVCameraView: UIView, RVCameraProtocol {
     
     let captureSession = AVCaptureSession()
     let rvCameraViewQueue = DispatchQueue(label: "com.rvcameraView.queue",attributes: .concurrent,autoreleaseFrequency: .inherit,target: .global())
     let capturePhotoOutput = AVCapturePhotoOutput()
+    let movieOutput = AVCaptureMovieFileOutput()
     public var cameraImageOutputDelegate: RVCameraImageOutputProtocol?
     public var cameraType: RVCameraType? {
         didSet {
@@ -35,8 +25,7 @@ final public class RVCameraView: UIView, RVCameraProtocol {
             self.configureOutPut()
         }
     }
-    let movieOutput = AVCaptureMovieFileOutput()
-
+    
     var isRecordingStarted: Bool = false
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -60,7 +49,6 @@ final public class RVCameraView: UIView, RVCameraProtocol {
     
     public func initiliseRVCameraView() {
         captureSession.sessionPreset = AVCaptureSession.Preset.photo
-       
         self.addCameraInput()
         self.configureOutPut()
         self.addRVCameraViewPreviewLayer()
@@ -83,24 +71,8 @@ final public class RVCameraView: UIView, RVCameraProtocol {
         if let inputToRemove = captureSession.inputs.first(where: { $0 is AVCaptureDeviceInput }) as? AVCaptureDeviceInput {
             captureSession.removeInput(inputToRemove)
         }
-
-        var captureInputDevice : AVCaptureDevice?
-        switch cameraType {
-        case .front:
-            let frontCamera = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .front)
-            captureInputDevice = frontCamera
-            
-        case .back:
-            let frontCamera = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .back)
-            captureInputDevice = frontCamera
-            
-        case .none:
-            let frontCamera = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .front)
-            captureInputDevice = frontCamera
-
-        }
         
-        guard let captureInputDevice = captureInputDevice else {
+        guard let captureInputDevice : AVCaptureDevice = getCamera() else {
             print("Unable to create capture device type ", cameraType?.cameraDeviceDescription as Any)
             return
         }
@@ -110,6 +82,18 @@ final public class RVCameraView: UIView, RVCameraProtocol {
             captureSession.addInput(input)
         } catch let error {
             print("Error creating AVCaptureDeviceInput: \(error.localizedDescription)")
+        }
+    }
+    
+    private func getCamera() -> AVCaptureDevice? {
+        switch cameraType {
+        case .front:
+            return AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .front)
+        case .back:
+            return AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .back)
+            
+        case .none:
+            return AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .front)
         }
     }
     

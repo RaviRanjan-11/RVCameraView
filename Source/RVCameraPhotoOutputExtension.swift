@@ -9,7 +9,7 @@ import Foundation
 import AVFoundation
 extension RVCameraView: AVCapturePhotoCaptureDelegate {
     
-    public func captureImage() {
+    public func capture() {
         switch cameraOutputType {
         case .photo:
             let settings = AVCapturePhotoSettings()

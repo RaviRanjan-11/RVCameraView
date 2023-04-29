@@ -15,6 +15,7 @@
 		6E58D253CD6D7B797E13E87145CCCCB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AA3A49AC06816ABC2B6D9BCF26020BE0 /* Pods-RVCameraView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 907B1D2687CCAC04814289F639E623D4 /* Pods-RVCameraView_Tests-dummy.m */; };
 		BBFEBA69C5CB8A3E9CC6C76F2ECC6E4E /* Pods-RVCameraView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8EC0C4CEAFBA6AEEAF4B57DF1A4DBB /* Pods-RVCameraView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA7CC45829FD768300098C84 /* RVCameraViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CC45729FD768300098C84 /* RVCameraViewProtocols.swift */; };
 		FA9E772029FD1E670089E213 /* RVCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E771F29FD1E670089E213 /* RVCameraView.swift */; };
 		FA9E772229FD262D0089E213 /* RVCameraPhotoOutputExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E772129FD262D0089E213 /* RVCameraPhotoOutputExtension.swift */; };
 		FA9E772429FD2BBD0089E213 /* RVCameraVideoOutputExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E772329FD2BBD0089E213 /* RVCameraVideoOutputExtension.swift */; };
@@ -73,6 +74,7 @@
 		BE4BD05C58050F8CCAA4AF122CA69C7B /* RVCameraView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RVCameraView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A51C08EA564A32378FA6B84B9D0A71 /* RVCameraView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RVCameraView.modulemap; sourceTree = "<group>"; };
 		F151BD17F2D9D6AB16D9193299755AD9 /* Pods-RVCameraView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVCameraView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FA7CC45729FD768300098C84 /* RVCameraViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVCameraViewProtocols.swift; sourceTree = "<group>"; };
 		FA9E771F29FD1E670089E213 /* RVCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVCameraView.swift; sourceTree = "<group>"; };
 		FA9E772129FD262D0089E213 /* RVCameraPhotoOutputExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVCameraPhotoOutputExtension.swift; sourceTree = "<group>"; };
 		FA9E772329FD2BBD0089E213 /* RVCameraVideoOutputExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVCameraVideoOutputExtension.swift; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				FA9E771F29FD1E670089E213 /* RVCameraView.swift */,
 				FA9E772529FD2CF60089E213 /* RVCameraType.swift */,
 				FA9E772729FD2F380089E213 /* RVCameraOutputType.swift */,
+				FA7CC45729FD768300098C84 /* RVCameraViewProtocols.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7CC45829FD768300098C84 /* RVCameraViewProtocols.swift in Sources */,
 				FF9E57788BFA53D1E1C2196D6A805A31 /* RVCameraView-dummy.m in Sources */,
 				FA9E772629FD2CF60089E213 /* RVCameraType.swift in Sources */,
 				FA9E772229FD262D0089E213 /* RVCameraPhotoOutputExtension.swift in Sources */,
