@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RVCameraView'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Custom Camera view with Photo capture and Video recording at same time with Front or rear camera '
 
 # This description is used to generate tags and improve search results.
