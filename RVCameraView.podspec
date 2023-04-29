@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   'Custom Camera view with Photo capture and Video recording at same time with Front or rear camera '
   DESC
 
-  s.homepage         = 'https://github.com/veerChauhan/RVCameraView'
+  s.homepage         = 'https://github.com/veerChauhan/RVCameraView.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '' => 'r.ranjanchn@gmail.com' }
-  s.source           = { :git => 'https://github.com/veerChauhan/RVCameraView', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/veerChauhan/RVCameraView.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/b_banzara'
 
   s.ios.deployment_target = '13.0'
