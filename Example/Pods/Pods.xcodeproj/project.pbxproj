@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1043051066E68C384A51EBB8504CE825 /* Pods-RVCameraView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA8253A88187B060F512A1D89D68DB7 /* Pods-RVCameraView_Example-dummy.m */; };
+		284E3930ECC85AAF94FD3298682C8A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		294C3E3514968D10E2B431E717196343 /* RVCameraView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 788E72DE61FF5CBCAC303C415E087E03 /* RVCameraView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32C1059FC48A864934EC2FA1A84E0C99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4F7EFCC1299BF750D55012F7FE57DC04 /* Pods-RVCameraView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96976232B6901DB464EB45FA8A150568 /* Pods-RVCameraView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E58D253CD6D7B797E13E87145CCCCB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9C4A223003BFB053F029111634092669 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BC4A4B9FAB104853B6CA194D8937E /* ReplaceMe.swift */; };
+		AA3A49AC06816ABC2B6D9BCF26020BE0 /* Pods-RVCameraView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 907B1D2687CCAC04814289F639E623D4 /* Pods-RVCameraView_Tests-dummy.m */; };
+		BBFEBA69C5CB8A3E9CC6C76F2ECC6E4E /* Pods-RVCameraView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8EC0C4CEAFBA6AEEAF4B57DF1A4DBB /* Pods-RVCameraView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA9E772029FD1E670089E213 /* RVCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E771F29FD1E670089E213 /* RVCameraView.swift */; };
+		FA9E772229FD262D0089E213 /* RVCameraPhotoOutputExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E772129FD262D0089E213 /* RVCameraPhotoOutputExtension.swift */; };
+		FA9E772429FD2BBD0089E213 /* RVCameraVideoOutputExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E772329FD2BBD0089E213 /* RVCameraVideoOutputExtension.swift */; };
+		FA9E772629FD2CF60089E213 /* RVCameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E772529FD2CF60089E213 /* RVCameraType.swift */; };
+		FA9E772829FD2F380089E213 /* RVCameraOutputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E772729FD2F380089E213 /* RVCameraOutputType.swift */; };
+		FF9E57788BFA53D1E1C2196D6A805A31 /* RVCameraView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 802542A4D8CA2B6529A8235CA75D0023 /* RVCameraView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E40AE570860F1F70392C39A8B3DC2765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8231CBD19D8CD04EFFBEFB9C806400;
+			remoteInfo = "Pods-RVCameraView_Example";
+		};
+		FCF4A8E819FA41C077953AC96C9B91D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F91F265F84122A4E715E3E54B271CAB;
+			remoteInfo = RVCameraView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005373A58CBC012CB68FDFBEA58F7CC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		007B176015BF8A5E7794EEDAF9EF2D69 /* Pods_RVCameraView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RVCameraView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0163C3C622B996F541BCFFA588E6FFF6 /* Pods-RVCameraView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RVCameraView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		08272D7EB3F3DEC1622C8B29AC65E49C /* RVCameraView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RVCameraView-Info.plist"; sourceTree = "<group>"; };
+		0D42D710491275F59E4D494D697B03C2 /* Pods-RVCameraView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RVCameraView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		124C31182F5E9C4DCA60561B7CAB1C00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		12BFF8B57D734B963C527A0D42C869C1 /* Pods-RVCameraView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVCameraView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1ADE6E3E3EF11ED8B3B4B19B32A2D099 /* Pods-RVCameraView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVCameraView_Example-Info.plist"; sourceTree = "<group>"; };
+		1D100D1E6858B7E535A33152144AA3D6 /* Pods-RVCameraView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVCameraView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AD14AC3CD58D584F5F8DCCC2B70F7E9 /* RVCameraView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RVCameraView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3F86BF6F9E2C16EF4C886164A0F2D2BA /* RVCameraView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVCameraView.release.xcconfig; sourceTree = "<group>"; };
+		420CBE6B4D0C28628357FC54D1F1A296 /* Pods-RVCameraView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RVCameraView_Example.modulemap"; sourceTree = "<group>"; };
+		4A987BE53BF767F48C3778E508937F7C /* Pods-RVCameraView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RVCameraView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50AADD7588462658E100B4AEEA928A66 /* Pods-RVCameraView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVCameraView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5AA8253A88187B060F512A1D89D68DB7 /* Pods-RVCameraView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RVCameraView_Example-dummy.m"; sourceTree = "<group>"; };
+		67F61395F3DA4816FA974DDCA504259A /* Pods-RVCameraView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVCameraView_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		788E72DE61FF5CBCAC303C415E087E03 /* RVCameraView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVCameraView-umbrella.h"; sourceTree = "<group>"; };
+		7982C4CA6B11A5D3E84F74D0AB64973A /* Pods_RVCameraView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RVCameraView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FDCEFB5EF4364AB34096B2935BFA9D /* RVCameraView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVCameraView.debug.xcconfig; sourceTree = "<group>"; };
+		802542A4D8CA2B6529A8235CA75D0023 /* RVCameraView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RVCameraView-dummy.m"; sourceTree = "<group>"; };
+		8507930BCCECEB31F0B5B2AEFFF1A070 /* Pods-RVCameraView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RVCameraView_Tests.modulemap"; sourceTree = "<group>"; };
+		8D7BC4A4B9FAB104853B6CA194D8937E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RVCameraView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		907B1D2687CCAC04814289F639E623D4 /* Pods-RVCameraView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RVCameraView_Tests-dummy.m"; sourceTree = "<group>"; };
+		96976232B6901DB464EB45FA8A150568 /* Pods-RVCameraView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RVCameraView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3A5505889426F44A09E5C74E707140C /* Pods-RVCameraView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVCameraView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7485DDEA351E6F0E048D6DBA7EC32F6 /* Pods-RVCameraView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVCameraView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AF8EC0C4CEAFBA6AEEAF4B57DF1A4DBB /* Pods-RVCameraView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RVCameraView_Example-umbrella.h"; sourceTree = "<group>"; };
+		BC2F44CB8CE5A9B5860D3008107613C4 /* RVCameraView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVCameraView-prefix.pch"; sourceTree = "<group>"; };
+		BE4BD05C58050F8CCAA4AF122CA69C7B /* RVCameraView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RVCameraView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A51C08EA564A32378FA6B84B9D0A71 /* RVCameraView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RVCameraView.modulemap; sourceTree = "<group>"; };
+		F151BD17F2D9D6AB16D9193299755AD9 /* Pods-RVCameraView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVCameraView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FA9E771F29FD1E670089E213 /* RVCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVCameraView.swift; sourceTree = "<group>"; };
+		FA9E772129FD262D0089E213 /* RVCameraPhotoOutputExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVCameraPhotoOutputExtension.swift; sourceTree = "<group>"; };
+		FA9E772329FD2BBD0089E213 /* RVCameraVideoOutputExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVCameraVideoOutputExtension.swift; sourceTree = "<group>"; };
+		FA9E772529FD2CF60089E213 /* RVCameraType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVCameraType.swift; sourceTree = "<group>"; };
+		FA9E772729FD2F380089E213 /* RVCameraOutputType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVCameraOutputType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80ADA0B3BAE3DF151BEEFFB68BC4BE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E58D253CD6D7B797E13E87145CCCCB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D4CD5CAB7C056244654F296DCB19B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284E3930ECC85AAF94FD3298682C8A38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65245358A08DF397DC5A83465701013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C1059FC48A864934EC2FA1A84E0C99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0915106B251745E3EB90AE0A85C2E98E /* Pods-RVCameraView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				420CBE6B4D0C28628357FC54D1F1A296 /* Pods-RVCameraView_Example.modulemap */,
+				0D42D710491275F59E4D494D697B03C2 /* Pods-RVCameraView_Example-acknowledgements.markdown */,
+				50AADD7588462658E100B4AEEA928A66 /* Pods-RVCameraView_Example-acknowledgements.plist */,
+				5AA8253A88187B060F512A1D89D68DB7 /* Pods-RVCameraView_Example-dummy.m */,
+				0163C3C622B996F541BCFFA588E6FFF6 /* Pods-RVCameraView_Example-frameworks.sh */,
+				1ADE6E3E3EF11ED8B3B4B19B32A2D099 /* Pods-RVCameraView_Example-Info.plist */,
+				AF8EC0C4CEAFBA6AEEAF4B57DF1A4DBB /* Pods-RVCameraView_Example-umbrella.h */,
+				A7485DDEA351E6F0E048D6DBA7EC32F6 /* Pods-RVCameraView_Example.debug.xcconfig */,
+				F151BD17F2D9D6AB16D9193299755AD9 /* Pods-RVCameraView_Example.release.xcconfig */,
+			);
+			name = "Pods-RVCameraView_Example";
+			path = "Target Support Files/Pods-RVCameraView_Example";
+			sourceTree = "<group>";
+		};
+		32174613D7A4F121CEBDD1C97AE2A0F0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A217C740E81AC76153DCDE0073ECB69 /* RVCameraView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4A217C740E81AC76153DCDE0073ECB69 /* RVCameraView */ = {
+			isa = PBXGroup;
+			children = (
+				8D7BC4A4B9FAB104853B6CA194D8937E /* ReplaceMe.swift */,
+				FA9E772129FD262D0089E213 /* RVCameraPhotoOutputExtension.swift */,
+				FA9E772329FD2BBD0089E213 /* RVCameraVideoOutputExtension.swift */,
+				FA9E771F29FD1E670089E213 /* RVCameraView.swift */,
+				FA9E772529FD2CF60089E213 /* RVCameraType.swift */,
+				FA9E772729FD2F380089E213 /* RVCameraOutputType.swift */,
+				F2786452294C249B66AB0682F41E541E /* Pod */,
+				F755A29F92164CED2F7C8054B8C17F1A /* Support Files */,
+			);
+			name = RVCameraView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		57B1D75F8E4DAC1CF7879240EA8B852C /* Pods-RVCameraView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8507930BCCECEB31F0B5B2AEFFF1A070 /* Pods-RVCameraView_Tests.modulemap */,
+				4A987BE53BF767F48C3778E508937F7C /* Pods-RVCameraView_Tests-acknowledgements.markdown */,
+				A3A5505889426F44A09E5C74E707140C /* Pods-RVCameraView_Tests-acknowledgements.plist */,
+				907B1D2687CCAC04814289F639E623D4 /* Pods-RVCameraView_Tests-dummy.m */,
+				67F61395F3DA4816FA974DDCA504259A /* Pods-RVCameraView_Tests-Info.plist */,
+				96976232B6901DB464EB45FA8A150568 /* Pods-RVCameraView_Tests-umbrella.h */,
+				1D100D1E6858B7E535A33152144AA3D6 /* Pods-RVCameraView_Tests.debug.xcconfig */,
+				12BFF8B57D734B963C527A0D42C869C1 /* Pods-RVCameraView_Tests.release.xcconfig */,
+			);
+			name = "Pods-RVCameraView_Tests";
+			path = "Target Support Files/Pods-RVCameraView_Tests";
+			sourceTree = "<group>";
+		};
+		58435E1628FB528B6C3FF08E222AB481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				007B176015BF8A5E7794EEDAF9EF2D69 /* Pods_RVCameraView_Example.framework */,
+				7982C4CA6B11A5D3E84F74D0AB64973A /* Pods_RVCameraView_Tests.framework */,
+				BE4BD05C58050F8CCAA4AF122CA69C7B /* RVCameraView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				32174613D7A4F121CEBDD1C97AE2A0F0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				58435E1628FB528B6C3FF08E222AB481 /* Products */,
+				D43865A022590245246A70987EB51003 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D43865A022590245246A70987EB51003 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0915106B251745E3EB90AE0A85C2E98E /* Pods-RVCameraView_Example */,
+				57B1D75F8E4DAC1CF7879240EA8B852C /* Pods-RVCameraView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F2786452294C249B66AB0682F41E541E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				124C31182F5E9C4DCA60561B7CAB1C00 /* LICENSE */,
+				005373A58CBC012CB68FDFBEA58F7CC9 /* README.md */,
+				2AD14AC3CD58D584F5F8DCCC2B70F7E9 /* RVCameraView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F755A29F92164CED2F7C8054B8C17F1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7A51C08EA564A32378FA6B84B9D0A71 /* RVCameraView.modulemap */,
+				802542A4D8CA2B6529A8235CA75D0023 /* RVCameraView-dummy.m */,
+				08272D7EB3F3DEC1622C8B29AC65E49C /* RVCameraView-Info.plist */,
+				BC2F44CB8CE5A9B5860D3008107613C4 /* RVCameraView-prefix.pch */,
+				788E72DE61FF5CBCAC303C415E087E03 /* RVCameraView-umbrella.h */,
+				79FDCEFB5EF4364AB34096B2935BFA9D /* RVCameraView.debug.xcconfig */,
+				3F86BF6F9E2C16EF4C886164A0F2D2BA /* RVCameraView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RVCameraView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		691765CA94DD2D9D38A26062E2D625AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294C3E3514968D10E2B431E717196343 /* RVCameraView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE48E280B99654D74811879B4984CC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7EFCC1299BF750D55012F7FE57DC04 /* Pods-RVCameraView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19DB116858ADD466FC44C4F5CFF1510 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFEBA69C5CB8A3E9CC6C76F2ECC6E4E /* Pods-RVCameraView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71BDAC5D2075DE63A151EFCC3EAD8322 /* Pods-RVCameraView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8E979BDDBB6614124E0E9446971E59 /* Build configuration list for PBXNativeTarget "Pods-RVCameraView_Tests" */;
+			buildPhases = (
+				7FE48E280B99654D74811879B4984CC9 /* Headers */,
+				D19C08BFEF251FEB40709D1B50563EE1 /* Sources */,
+				87D4CD5CAB7C056244654F296DCB19B5 /* Frameworks */,
+				027E007461431D607B9E697448CF66D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				780D5D866F28FDB9F7A8D27A1BEFD66A /* PBXTargetDependency */,
+			);
+			name = "Pods-RVCameraView_Tests";
+			productName = Pods_RVCameraView_Tests;
+			productReference = 7982C4CA6B11A5D3E84F74D0AB64973A /* Pods_RVCameraView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C8231CBD19D8CD04EFFBEFB9C806400 /* Pods-RVCameraView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61496D9DF8E0CBAD6FCC99660235B248 /* Build configuration list for PBXNativeTarget "Pods-RVCameraView_Example" */;
+			buildPhases = (
+				A19DB116858ADD466FC44C4F5CFF1510 /* Headers */,
+				4E473C68CE4CDA1AA5093484B1619133 /* Sources */,
+				E65245358A08DF397DC5A83465701013 /* Frameworks */,
+				F7229D2B4F7294C9A7ED48AE0F07019C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC7BE4380406325898FA7A7325755E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-RVCameraView_Example";
+			productName = Pods_RVCameraView_Example;
+			productReference = 007B176015BF8A5E7794EEDAF9EF2D69 /* Pods_RVCameraView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F91F265F84122A4E715E3E54B271CAB /* RVCameraView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AE6BC841CA5BCC2DE0B5516AF890FA /* Build configuration list for PBXNativeTarget "RVCameraView" */;
+			buildPhases = (
+				691765CA94DD2D9D38A26062E2D625AF /* Headers */,
+				F14093244199118CD93667C2EE6DD226 /* Sources */,
+				80ADA0B3BAE3DF151BEEFFB68BC4BE22 /* Frameworks */,
+				3CC91AECA3405FE3BB5F0D760800D4D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RVCameraView;
+			productName = RVCameraView;
+			productReference = BE4BD05C58050F8CCAA4AF122CA69C7B /* RVCameraView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 58435E1628FB528B6C3FF08E222AB481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C8231CBD19D8CD04EFFBEFB9C806400 /* Pods-RVCameraView_Example */,
+				71BDAC5D2075DE63A151EFCC3EAD8322 /* Pods-RVCameraView_Tests */,
+				8F91F265F84122A4E715E3E54B271CAB /* RVCameraView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		027E007461431D607B9E697448CF66D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC91AECA3405FE3BB5F0D760800D4D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7229D2B4F7294C9A7ED48AE0F07019C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E473C68CE4CDA1AA5093484B1619133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1043051066E68C384A51EBB8504CE825 /* Pods-RVCameraView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19C08BFEF251FEB40709D1B50563EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3A49AC06816ABC2B6D9BCF26020BE0 /* Pods-RVCameraView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14093244199118CD93667C2EE6DD226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4A223003BFB053F029111634092669 /* ReplaceMe.swift in Sources */,
+				FF9E57788BFA53D1E1C2196D6A805A31 /* RVCameraView-dummy.m in Sources */,
+				FA9E772629FD2CF60089E213 /* RVCameraType.swift in Sources */,
+				FA9E772229FD262D0089E213 /* RVCameraPhotoOutputExtension.swift in Sources */,
+				FA9E772429FD2BBD0089E213 /* RVCameraVideoOutputExtension.swift in Sources */,
+				FA9E772029FD1E670089E213 /* RVCameraView.swift in Sources */,
+				FA9E772829FD2F380089E213 /* RVCameraOutputType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		780D5D866F28FDB9F7A8D27A1BEFD66A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RVCameraView_Example";
+			target = 8C8231CBD19D8CD04EFFBEFB9C806400 /* Pods-RVCameraView_Example */;
+			targetProxy = E40AE570860F1F70392C39A8B3DC2765 /* PBXContainerItemProxy */;
+		};
+		FBC7BE4380406325898FA7A7325755E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RVCameraView;
+			target = 8F91F265F84122A4E715E3E54B271CAB /* RVCameraView */;
+			targetProxy = FCF4A8E819FA41C077953AC96C9B91D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3079645207781A519B559D269F1C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12BFF8B57D734B963C527A0D42C869C1 /* Pods-RVCameraView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVCameraView_Tests/Pods-RVCameraView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVCameraView_Tests/Pods-RVCameraView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53ECA83138E8757312BD4190B878C35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79FDCEFB5EF4364AB34096B2935BFA9D /* RVCameraView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RVCameraView/RVCameraView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RVCameraView/RVCameraView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RVCameraView/RVCameraView.modulemap";
+				PRODUCT_MODULE_NAME = RVCameraView;
+				PRODUCT_NAME = RVCameraView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		670C67B08EC3B3CFF9280A759E745CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F86BF6F9E2C16EF4C886164A0F2D2BA /* RVCameraView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RVCameraView/RVCameraView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RVCameraView/RVCameraView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RVCameraView/RVCameraView.modulemap";
+				PRODUCT_MODULE_NAME = RVCameraView;
+				PRODUCT_NAME = RVCameraView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		958019E7F30C246AE6E72CDA6D4E5436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D100D1E6858B7E535A33152144AA3D6 /* Pods-RVCameraView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVCameraView_Tests/Pods-RVCameraView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVCameraView_Tests/Pods-RVCameraView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA832A4C519D418BBBBFC36445EB5694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F151BD17F2D9D6AB16D9193299755AD9 /* Pods-RVCameraView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVCameraView_Example/Pods-RVCameraView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVCameraView_Example/Pods-RVCameraView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E5A2331BB847D2DDBA443CD94E00CA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7485DDEA351E6F0E048D6DBA7EC32F6 /* Pods-RVCameraView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVCameraView_Example/Pods-RVCameraView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVCameraView_Example/Pods-RVCameraView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61496D9DF8E0CBAD6FCC99660235B248 /* Build configuration list for PBXNativeTarget "Pods-RVCameraView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A2331BB847D2DDBA443CD94E00CA9F /* Debug */,
+				BA832A4C519D418BBBBFC36445EB5694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AE6BC841CA5BCC2DE0B5516AF890FA /* Build configuration list for PBXNativeTarget "RVCameraView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53ECA83138E8757312BD4190B878C35B /* Debug */,
+				670C67B08EC3B3CFF9280A759E745CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8E979BDDBB6614124E0E9446971E59 /* Build configuration list for PBXNativeTarget "Pods-RVCameraView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958019E7F30C246AE6E72CDA6D4E5436 /* Debug */,
+				3079645207781A519B559D269F1C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module RVCameraView {
+  umbrella header "RVCameraView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_RVCameraView_Tests {
+  umbrella header "Pods-RVCameraView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

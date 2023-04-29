@@ -1,0 +1,16 @@
+PODS:
+  - RVCameraView (0.1.0)
+
+DEPENDENCIES:
+  - RVCameraView (from `../`)
+
+EXTERNAL SOURCES:
+  RVCameraView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RVCameraView: 1c03110901a97bfa4322263d54a4c05bc5521f3b
+
+PODFILE CHECKSUM: 1918b1a7d557c7cd0e7908c15606d67feb7966c1
+
+COCOAPODS: 1.11.3
