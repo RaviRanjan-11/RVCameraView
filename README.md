@@ -1,10 +1,12 @@
 # RVCameraView
 
-![RVcameraView](https://user-images.githubusercontent.com/26132769/235347216-edffd498-c52f-4731-a01b-e9f1762a4ad5.png)
 [![CI Status](https://img.shields.io/travis/26132769/RVCameraView.svg?style=flat)](https://travis-ci.org/26132769/RVCameraView)
 [![Version](https://img.shields.io/cocoapods/v/RVCameraView.svg?style=flat)](https://cocoapods.org/pods/RVCameraView)
 [![License](https://img.shields.io/cocoapods/l/RVCameraView.svg?style=flat)](https://cocoapods.org/pods/RVCameraView)
 [![Platform](https://img.shields.io/cocoapods/p/RVCameraView.svg?style=flat)](https://cocoapods.org/pods/RVCameraView)
+
+![RVCameraView](https://user-images.githubusercontent.com/26132769/235347367-d127cda3-3fc9-4bcb-a50f-8377ccf3e0a6.png)
+
 
 ## Example
 
