@@ -138,7 +138,7 @@
 		4A217C740E81AC76153DCDE0073ECB69 /* RVCameraView */ = {
 			isa = PBXGroup;
 			children = (
-				FA7CC46629FD7D1600098C84 /* Classes */,
+				FA7CC47729FE6B5000098C84 /* SourceCode */,
 				F2786452294C249B66AB0682F41E541E /* Pod */,
 				F755A29F92164CED2F7C8054B8C17F1A /* Support Files */,
 			);
@@ -233,7 +233,7 @@
 			path = "Example/Pods/Target Support Files/RVCameraView";
 			sourceTree = "<group>";
 		};
-		FA7CC46629FD7D1600098C84 /* Classes */ = {
+		FA7CC47729FE6B5000098C84 /* SourceCode */ = {
 			isa = PBXGroup;
 			children = (
 				FA7CC47329FD7D8600098C84 /* RVCameraView.swift */,
@@ -243,7 +243,7 @@
 				FA7CC46A29FD7D4500098C84 /* RVCameraVideoOutputExtension.swift */,
 				FA7CC46B29FD7D4500098C84 /* RVCameraViewProtocols.swift */,
 			);
-			path = Classes;
+			path = SourceCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
