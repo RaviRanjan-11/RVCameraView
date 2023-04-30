@@ -3,17 +3,13 @@
 [![Version](https://img.shields.io/cocoapods/v/RVCameraView.svg?style=flat)](https://cocoapods.org/pods/RVCameraView)
 [![License](https://img.shields.io/cocoapods/l/RVCameraView.svg?style=flat)](https://cocoapods.org/pods/RVCameraView)
 [![Platform](https://img.shields.io/cocoapods/p/RVCameraView.svg?style=flat)](https://cocoapods.org/pods/RVCameraView)
-
 ![RVCameraView](https://user-images.githubusercontent.com/26132769/235347367-d127cda3-3fc9-4bcb-a50f-8377ccf3e0a6.png)
-
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
-
+- iOS14
 ## Installation
 
 RVCameraView is available through [CocoaPods](https://cocoapods.org). To install
