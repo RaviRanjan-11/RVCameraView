@@ -20,9 +20,40 @@ it, simply add the following line to your Podfile:
 pod 'RVCameraView'
 ```
 
+## How To Implement
+
+    @IBOutlet weak var rvCameraView: RVCameraView!
+
+
+    func loadCamera() {
+        self.rvCameraView.cameraImageOutputDelegate = self
+        self.rvCameraView.cameraType = .front
+        self.rvCameraView.cameraOutputType = .photo
+        self.rvCameraView.initiliseRVCameraView()
+
+    }
+    
+    @IBAction func onClickCameraButton(_ sender: UIButton) {
+        self.rvCameraView.capture()
+    }
+    
+    @IBAction func onTapCameraType(_ sender: UIButton) {
+        switch camera {
+        case .front:
+            camera = .rear
+            self.rvCameraView.cameraType = .back
+            sender.setTitle("R", for: .normal)
+
+        case .rear:
+            camera = .front
+            self.rvCameraView.cameraType = .front
+            sender.setTitle("F", for: .normal)
+        }
+        
+    }
 ## Author
 
-26132769, r.ranjanchn@gmail.com
+Ravi, r.ranjanchn@gmail.com
 
 ## License
 
