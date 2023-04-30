@@ -1,6 +1,5 @@
 # RVCameraView
 
-[![CI Status](https://img.shields.io/travis/26132769/RVCameraView.svg?style=flat)](https://travis-ci.org/26132769/RVCameraView)
 [![Version](https://img.shields.io/cocoapods/v/RVCameraView.svg?style=flat)](https://cocoapods.org/pods/RVCameraView)
 [![License](https://img.shields.io/cocoapods/l/RVCameraView.svg?style=flat)](https://cocoapods.org/pods/RVCameraView)
 [![Platform](https://img.shields.io/cocoapods/p/RVCameraView.svg?style=flat)](https://cocoapods.org/pods/RVCameraView)
