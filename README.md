@@ -1,5 +1,6 @@
 # RVCameraView
 
+![alt text](https://ibb.co/fthRfs2)
 [![CI Status](https://img.shields.io/travis/26132769/RVCameraView.svg?style=flat)](https://travis-ci.org/26132769/RVCameraView)
 [![Version](https://img.shields.io/cocoapods/v/RVCameraView.svg?style=flat)](https://cocoapods.org/pods/RVCameraView)
 [![License](https://img.shields.io/cocoapods/l/RVCameraView.svg?style=flat)](https://cocoapods.org/pods/RVCameraView)
@@ -10,6 +11,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
 
 ## Installation
 
