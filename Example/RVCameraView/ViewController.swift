@@ -8,22 +8,28 @@
 
 import UIKit
 import RVCameraView
+import AVKit
 
 class ViewController: UIViewController, RVCameraImageOutputProtocol {
-   
+    @IBOutlet weak var cameraButton: UIButton!
+    
     @IBOutlet weak var cameraTypeButton: UIButton!
     @IBOutlet weak var cameraOptionSegmentControl: UISegmentedControl!
-    @IBOutlet weak var cameraButton: UIButton!
     @IBOutlet weak var rvCameraView: RVCameraView!
     var camera: cameraType = .front
     var currentCameraType: CameraOptionType = .photo
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
+        self.configureUI()
     }
 
+    
+    private func configureUI(){
+        self.cameraButton.layer.cornerRadius = self.cameraButton.frame.width / 2
+        self.cameraButton.layer.borderColor = UIColor.black.cgColor
+        self.cameraButton.layer.borderWidth = 2.0
+    }
     override func viewDidAppear(_ animated: Bool) {
         self.rvCameraView.cameraImageOutputDelegate = self
         self.rvCameraView.cameraType = .front
@@ -70,10 +76,45 @@ class ViewController: UIViewController, RVCameraImageOutputProtocol {
         switch currentCameraType {
         case .photo:
             print(photo as Any)
+            guard let previewImage = photo else {
+                print("Image not clicked")
+                return
+            }
+            self.previewClickedImage(with: previewImage)
+        
         case .video:
             print(videoURL as Any)
+            
+            guard let previewURL = videoURL else {
+                print("Unable to create preview URL")
+                return
+            }
+            self.setup(with: previewURL)
 
         }
+    }
+
+    
+    func previewClickedImage(with image: UIImage) {
+        let imageView = UIImageView(frame: CGRect(origin: CGPoint(x: self.view.center.x - 100, y: self.view.center.y - 100), size: CGSize(width: 200, height: 200)))
+        imageView.image = image
+        view.addSubview(imageView)
+    }
+    
+    func setup(with videoURL: URL) {
+        // Create the AVPlayer item
+        let playerItem = AVPlayerItem(url: videoURL)
+        
+        // Create the AVPlayer
+        let player = AVPlayer(playerItem: playerItem)
+        
+        // Create the AVPlayerLayer and add it to the view's layer
+        let playerLayer = AVPlayerLayer(player: player)
+        playerLayer.frame = self.view.bounds
+        self.view.layer.addSublayer(playerLayer)
+        
+        // Start playing the video
+        player.play()
     }
    
 }

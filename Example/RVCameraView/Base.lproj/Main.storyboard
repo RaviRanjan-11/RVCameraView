@@ -49,9 +49,9 @@
                                     <constraint firstAttribute="width" constant="40" id="lgI-O8-qv5"/>
                                 </constraints>
                             </view>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="FlX-19-fra">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FlX-19-fra">
                                 <rect key="frame" x="26" y="542" width="323" height="41"/>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ZIU-HR-E2B"/>
                                 </constraints>
@@ -59,8 +59,8 @@
                                     <segment title="Photo"/>
                                     <segment title="Video"/>
                                 </segments>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="selectedSegmentTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="systemBrownColor"/>
+                                <color key="selectedSegmentTintColor" systemColor="systemMintColor"/>
                                 <connections>
                                     <action selector="onChangeCameraType:forEvent:" destination="vXZ-lx-hvc" eventType="valueChanged" id="5VH-Fo-b3F"/>
                                 </connections>
@@ -94,7 +94,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="cameraButton" destination="vrq-1G-pN7" id="s4g-ii-Xhe"/>
+                        <outlet property="cameraButton" destination="vrq-1G-pN7" id="kxY-ob-0ck"/>
                         <outlet property="cameraOptionSegmentControl" destination="FlX-19-fra" id="Pzk-Gc-Yfb"/>
                         <outlet property="cameraTypeButton" destination="bqj-33-Rmh" id="9T6-lk-nSZ"/>
                         <outlet property="rvCameraView" destination="Uc0-O1-2Kh" id="SIA-f9-hZK"/>
@@ -110,11 +110,17 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
